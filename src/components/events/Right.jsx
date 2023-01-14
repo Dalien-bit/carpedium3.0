@@ -10,7 +10,7 @@ const Right = ({ eventno }) => {
   };
   return (
     <div>
-      <div class={`${cl} max-w-md ml-8 lg:ml-20`}>
+      <div class={`${cl} sm:max-w-sm max-w-lg m-auto lg:ml-20`}>
         <img src={numberImage[eventno]} alt="" class="mb-3" />
         <div class="event-right-text-box">
           <div class="event-right-subtitle mb-3 text-white rounded-">

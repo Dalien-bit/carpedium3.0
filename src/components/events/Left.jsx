@@ -8,7 +8,7 @@ const Left = ({ eventno }) => {
   const clb = "event-left-box" + eventno;
   return (
     <div>
-      <div class={`course-card ${cl} max-w-xs mr-4 ml-4 w-full`}>
+      <div class={`course-card ${cl} max-w-xs m-auto w-full`}>
         <div
           class={`${clb} relative w-full mb-9 m-auto ml-4 absolute max-w-lg rounded-md text-white bg-black`}
         >

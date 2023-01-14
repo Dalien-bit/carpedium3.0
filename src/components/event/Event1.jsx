@@ -1,4 +1,5 @@
 import React from "react";
+import { events } from "../../content/content";
 
 const Event1 = () => {
   return (
@@ -6,22 +7,16 @@ const Event1 = () => {
       <section class="min-h-screen bg-white dark:bg-black">
         <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <img
-            class="w-full hidden dark:block"
+            className="w-full hidden dark:block"
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
             alt="dashboard image"
           />
           <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              IPL AUCTION
+              {events.ipl.name}
             </h2>
             <p class="mb-6 font-medium text-gray-500 md:text-lg dark:text-gray-400">
-              Welcome to the thrill of a live IPL auction! Have you ever
-              wondered what would you do if you get a chance to build your own
-              IPL team? If not, here is a chance to put yourself in the shoes of
-              a bidder and build your dream IPL team in these zero-cool minutes
-              of nerves, strategy, game theory and gut. If you love cricket and
-              can mix wit with passion into bidding strategy, then this event is
-              a must-try shot for you.
+              {events.ipl.description}
             </p>
             <a
               href="#"
