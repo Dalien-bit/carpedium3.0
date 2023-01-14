@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import logo from "./ecell-logo.png";
 
 const navigations = [
   "home",
@@ -12,19 +13,21 @@ const navigations = [
 
 const Navbar = () => {
   return (
-    <div> 
+    <div>
       <nav className="navbar">
         <div className="max-width">
           <div className="logo">
-            <button
-              type="button"
-              className="main-logo"
-              onClick={() => {
-                navigateTo("home");
-              }}
-            >
-              E-Summit<span>'23</span>
-            </button>
+            {window.innerWidth > 1105 ? (
+              <button
+                type="button"
+                className="main-logo"
+                onClick={() => {
+                  navigateTo("home");
+                }}
+              >
+                E-Summit<span>'23</span>
+              </button>
+            ) : <div> <img src={logo} className="logo-ecell" alt="" /></div>}
           </div>
           <ul className="menu">
             {navigations.map((value) => {

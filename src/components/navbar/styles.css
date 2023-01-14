@@ -22,7 +22,7 @@
 
 
 .navbar .menu li {
-    list-style: none;
+    /* list-style: none; */
     display: inline-block;
 }
 
@@ -35,19 +35,75 @@
     transition: color 0.3s ease;
 }
 
-.navbar .menu li p {
-    display: block;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease;
-}
-
 .navbar .menu li p:hover {
-    color: crimson;
+    color: rgb(20, 113, 220);
 }
 
 .navbar.sticky .menu li p:hover {
     color: #fff;
+}
+
+.logo-ecell {
+    width: 50px;
+}
+
+.main-logo {
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-logo::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    /* background-color: #212121; */
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.main-logo::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    /* background-color: #212121; */
+    transition: 0.5s;
+}
+
+.main-logo:hover::before,
+.main-logo:hover::after {
+    transform: scale(0)
+}
+
+.main-logo:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+@media (max-width: 1104px) {
+    .main-logo {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    .navbar .menu li p {
+        display: block;
+        color: #fff;
+        font-size: 12px;
+        margin-left: 12px;
+    }
 }
