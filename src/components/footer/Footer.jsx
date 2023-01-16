@@ -4,7 +4,7 @@ import { FiInstagram, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div class="body">
+    <div class="body" id="contact">
       <footer class="footer">
         <div class="waves">
           <div class="wave" id="wave1"></div>

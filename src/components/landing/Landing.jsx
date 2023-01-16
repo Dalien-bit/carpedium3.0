@@ -5,7 +5,7 @@ import logo from "./carpedium-logo-hd.png";
 
 const Landing = () => {
   return (
-    <div className="landing">
+    <div className="landing" id="home">
       <div className="scroll-up-btn">
         <i classname="fas fa-angle-up"></i>
       </div>

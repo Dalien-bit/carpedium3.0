@@ -27,7 +27,12 @@ const Navbar = () => {
               >
                 E-Summit<span>'23</span>
               </button>
-            ) : <div> <img src={logo} className="logo-ecell" alt="" /></div>}
+            ) : (
+              <div>
+                {" "}
+                <img src={logo} className="logo-ecell" alt="" />
+              </div>
+            )}
           </div>
           <ul className="menu">
             {navigations.map((value) => {
@@ -58,6 +63,8 @@ const Navbar = () => {
 
 const navigateTo = (place) => {
   console.log("cliceked");
+  let scroll_to = document.getElementById(place).offsetTop;
+  window.scrollTo({ behavior: "smooth", top: scroll_to });
   switch (place) {
     case "about": {
       window.scrollTo({ top: window.innerHeight - 100 });

@@ -10,7 +10,7 @@ const Left = ({ eventno }) => {
     <div>
       <div class={`course-card ${cl} max-w-xs m-auto w-full`}>
         <div
-          class={`${clb} relative w-full mb-9 m-auto ml-4 absolute max-w-lg rounded-md text-white bg-black`}
+          class={`${clb} relative w-full mb-9 m-auto  absolute max-w-lg rounded-md text-white bg-black`}
         >
           <a
             href="#"
