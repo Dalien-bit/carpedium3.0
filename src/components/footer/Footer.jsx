@@ -14,22 +14,31 @@ const Footer = () => {
         </div>
         <ul class="social-icon">
           <li class="social-icon__item">
-            <a class="social-icon__link" href="#">
+            <a
+              class="social-icon__link"
+              href="https://www.instagram.com/ecellnita/"
+            >
               <FiInstagram />
             </a>
           </li>
           <li class="social-icon__item">
-            <a class="social-icon__link" href="#">
+            <a
+              class="social-icon__link"
+              href="https://www.linkedin.com/company/ecellnita/"
+            >
               <FiLinkedin />
             </a>
           </li>
           <li class="social-icon__item">
-            <a class="social-icon__link" href="#">
+            <a class="social-icon__link" href="https://twitter.com/ecellnita">
               <FiTwitter />
             </a>
           </li>
           <li class="social-icon__item">
-            <a class="social-icon__link" href="#">
+            <a
+              class="social-icon__link"
+              href="https://www.facebook.com/ecellnita/"
+            >
               <FiFacebook />
             </a>
           </li>
