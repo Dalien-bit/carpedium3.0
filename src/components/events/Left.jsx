@@ -6,6 +6,9 @@ const Left = ({ eventno }) => {
   const navigate = useNavigate();
   const cl = "event-left" + eventno;
   const clb = "event-left-box" + eventno;
+  const name = [, "IPL AUCTION", "MISTERIO", "BID DE'LEAST"];
+  const date = [, "27th January", "28th January", "29th January"];
+  const size = [, "5 members", "2-4 members per team", "2-4 members per team"];
   return (
     <div>
       <div class={`course-card ${cl} max-w-xs m-auto w-full`}>
@@ -20,16 +23,15 @@ const Left = ({ eventno }) => {
               <div class="event-left-inside-info">
                 <div class="event-left-data">
                   <h3 class="event-left-heading mb-4">
-                    <strong class="text-xl">IPL AUCTION:</strong> <br />
-                    Carpediem
+                    <strong class="text-xl"> {name[eventno]}:</strong>
                   </h3>
 
                   <div class="event-left-date text-xl">
-                    27 January
+                    {date[eventno]}
                     <div class="op-50"></div>
                   </div>
                   <div class="event-left-team text-lg">
-                    Team Size: 5 - 6<div class="op-50"></div>
+                    Team Size: {size[eventno]}<div class="op-50"></div>
                   </div>
                   <div class="course-card-duration">
                     <div class="op-50"></div>
