@@ -4,6 +4,41 @@ import { FiInstagram, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
+    <div className="body" id="contact">
+      <footer className="footer">
+        <div className="waves">
+          <div className="wave" id="wave1"></div>
+          <div className="wave" id="wave2"></div>
+          <div className="wave" id="wave3"></div>
+          <div className="wave" id="wave4"></div>
+        </div>
+        <ul className="social-icon">
+          <li className="social-icon__item">
+            <a
+              className="social-icon__link"
+              href="https://www.instagram.com/ecellnita/">
+              <FiInstagram />
+            </a>
+          </li>
+          <li className="social-icon__item">
+            <a
+              className="social-icon__link"
+              href="https://www.linkedin.com/company/ecellnita/">
+              <FiLinkedin />
+            </a>
+          </li>
+          <li className="social-icon__item">
+            <a
+              className="social-icon__link"
+              href="https://twitter.com/ecellnita">
+              <FiTwitter />
+            </a>
+          </li>
+          <li className="social-icon__item">
+            <a
+              className="social-icon__link"
+              href="https://www.facebook.com/ecellnita/">
+
     <div class="body" id="contact">
       <footer class="footer">
         <div class="waves">
@@ -39,6 +74,7 @@ const Footer = () => {
               class="social-icon__link"
               href="https://www.facebook.com/ecellnita/"
             >
+
               <FiFacebook />
             </a>
           </li>
@@ -49,12 +85,10 @@ const Footer = () => {
       </footer>
       <script
         type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-      ></script>
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script
-        nomodule
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-      ></script>
+        noModule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </div>
   );
 };
