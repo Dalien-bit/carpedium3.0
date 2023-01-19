@@ -4,7 +4,7 @@ import "./styles.css";
 
 const Events = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="events">
       <Event leftFirst={true} eventno={"1"} />
       <Event leftFirst={false} eventno={"2"} />
       <Event leftFirst={true} eventno={"3"} />

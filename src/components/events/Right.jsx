@@ -10,18 +10,18 @@ const Right = ({ eventno }) => {
   };
   return (
     <div>
-      <div class={`${cl} sm:max-w-sm max-w-lg m-auto lg:ml-20`}>
-        <img src={numberImage[eventno]} alt="" class="mb-3" />
+      <div class={`${cl} sm:max-w-sm max-w-lg m-auto  `}>
+        <img src={numberImage[eventno]} alt="" class="mb-3 pl-5 sm:pl-0 " />
         <div class="event-right-text-box">
-          <div class="event-right-subtitle mb-3 text-white rounded-">
+          <div class="event-right-subtitle mb-3 text-white rounded pl-5 sm:pl-0">
             Sample text xyzzzz
           </div>
-          <h1 class="event-right-title text-6xl mb-6 font-extrabold text-white">
+          <h1 class="event-right-title text-5xl mb-6 font-extrabold pl-5 sm:pl-0 text-white ">
             IPL AUCTION
           </h1>
 
           <div>
-            <p class="event-right-desc md:w-11/12 text-white mb-5">
+            <p class="event-right-desc md:w-11/12 text-white mb-5 pl-5 pr-5 sm:pl-0 sm:pr-0 text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
               neque dicta error aperiam magnam, voluptates obcaecati et! Maiores
               exercitationem nesciunt libero. Hic aliquid illo, quae quia esse

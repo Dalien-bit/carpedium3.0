@@ -17,7 +17,7 @@ const Home = () => {
       <div id="speakers">
         <Speakers />
       </div>
-      {/* <Sponsors /> */}
+      <Sponsors />
       <Faq />
       <Footer />
     </div>

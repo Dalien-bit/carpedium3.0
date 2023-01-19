@@ -1,4 +1,5 @@
 import React from "react";
+import { events } from "../../content/content";
 
 const Event2 = () => {
   return (
@@ -12,16 +13,10 @@ const Event2 = () => {
           />
           <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              IPL AUCTION
+              {events.misterio.name}
             </h2>
             <p class="mb-6 font-medium text-gray-500 md:text-lg dark:text-gray-400">
-              Welcome to the thrill of a live IPL auction! Have you ever
-              wondered what would you do if you get a chance to build your own
-              IPL team? If not, here is a chance to put yourself in the shoes of
-              a bidder and build your dream IPL team in these zero-cool minutes
-              of nerves, strategy, game theory and gut. If you love cricket and
-              can mix wit with passion into bidding strategy, then this event is
-              a must-try shot for you.
+              {events.misterio.description}
             </p>
             <a
               href="#"

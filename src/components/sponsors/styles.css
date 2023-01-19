@@ -1,28 +1,84 @@
-
-.marquee-content {
-    display: flex;
-    animation: scrolling 7s linear infinite;
+.tspon{
+	color: white;
+    padding-bottom: 80px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.marquee-full-width {
+    padding-bottom: 100px;
+    padding-top: 0rem;
+    background: black;
+	width: 90vw;
+    opacity: 2;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+    z-index: 1;
+}
+.marquee-box {
+	overflow-x: hidden !important;
+	display: flex !important;
+	flex-direction: row !important;
+	position: relative;
+	width: 100%;
+}
+.marquee {
+    opacity: 1;
+    
+    padding-bottom: 1rem;
+	flex: 0 0 auto;
+	min-width: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	animation: marqueescroll 100s linear 0s infinite;
+	animation-play-state: running;
+	animation-delay: 0;
+	animation-direction: normal;
+}
+.marquee figure
+{
+	margin-right: 3rem;
+	margin-left: 3rem;
+	padding: 5px;
+	max-width: 250px;	
+	text-align: center;
+	vertical-align: top;
+}
+.marquee figcaption
+{
+	display:none;
+	font-weight: 80%;
+	color: #333;
+	line-height: 1.2;
+}
+.marquee img
+{
+    
+	margin: 0 auto;
+	height: auto;
+	max-height: 3.5rem;
+	max-width: 100%;
+	background: #fdfdfd;
+	border: none;
+}
+.marquee-box:hover div {
+	animation-play-state: running;
+}
+.marquee-box:active div {
+	animation-play-state: running;
+}
+@keyframes marqueescroll {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
 }
 
-.marquee-item {
-    flex: 0 0 16vw;
-    margin: 0 1vw;
-    /*   flex: 0 0 20vw; */
-    /*   margin: 0 2vw; */
-}
-
-.marquee-item img {
-    display: block;
-    width: 100%;
-    /*   padding: 0 20px; */
-}
-
-@keyframes scrolling {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translatex(-144vw);
-    }
-}

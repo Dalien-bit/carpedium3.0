@@ -60,6 +60,9 @@ const Navbar = () => {
 };
 
 const navigateTo = (place) => {
+  console.log("cliceked");
+  let scroll_to = document.getElementById(place).offsetTop;
+  window.scrollTo({ behavior: "smooth", top: scroll_to });
   switch (place) {
     case "about": {
       window.scrollTo({ top: window.innerHeight - 100 });

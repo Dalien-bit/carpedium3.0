@@ -36,90 +36,97 @@ const Sponsors = () => {
               alt=""
             />
           </div>
+    <div class="marquee-full-width" id="sponsors">
+      <h1 class="tspon">OUR SPONSORS</h1>
 
-          <div class="marquee-item">
+      <div class="marquee-box">
+        <div class="marquee">
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=05"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/sanjeevkapooracademy-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Sanjeev kapoor Academy</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=06"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/tutionfe-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Tuition Fe by BSE</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=07"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/symbiosistbi-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>
+              Symboisis Centre For Entrepreneurship & Innovation
+            </figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=08"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/srimantha-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Srimantha</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=01"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/gurukul-100x-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Gurukul by 100X VC</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=02"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/shikshamaitri-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Shikshamaitri</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=03"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/edifypath-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Edifypath</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=04"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/iesd-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Indian Energy Skill Development by UPES</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=05"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/meghnaddesaiacademy-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Meghnad Desai Academy Of Economics</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=06"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/beamusician-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Beamusician</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=07"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/fundenable-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
-
-          <div class="marquee-item">
+            <figcaption>Fundenable</figcaption>
+          </figure>
+          <figure>
             <img
-              src="https://via.placeholder.com/600/000000/FFFFFF/?text=08"
-              alt=""
+              src="https://knorish.com/assetsnew/images/client-logos/bingeclass-logo-01.jpg"
+              alt="featured creator"
             />
-          </div>
+            <figcaption>Binge Marketing by Gopal Krishnan</figcaption>
+          </figure>
         </div>
       </div>
     </div>
