@@ -6,9 +6,9 @@ const Left = ({ eventno }) => {
   const navigate = useNavigate();
   const cl = "event-left" + eventno;
   const clb = "event-left-box" + eventno;
-  const name = [ "IPL AUCTION", "MISTERIO", "BID DE'LEAST"];
-  const date = [ "27th January", "28th January", "29th January"];
-  const size = [ "5 members", "2-4 members per team", "2-4 members per team"];
+  const name = [, "IPL AUCTION", "MISTERIO", "BID DE'LEAST"];
+  const date = [, "27th January", "28th January", "29th January"];
+  const size = [, "5 members", "2-4 members per team", "2-4 members per team"];
   return (
     <div>
       <div class={`course-card ${cl} max-w-xs m-auto w-full`}>
