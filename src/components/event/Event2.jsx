@@ -13,10 +13,10 @@ const Event2 = () => {
           />
           <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              {events.misterio.name}
+              {events.mistereo.name}
             </h2>
             <p class="mb-6 font-medium text-gray-500 md:text-lg dark:text-gray-400">
-              {events.misterio.description}
+              {events.mistereo.description}
             </p>
             <a
               href="#"
