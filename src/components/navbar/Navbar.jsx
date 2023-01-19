@@ -23,23 +23,26 @@ const Navbar = () => {
                 className="main-logo"
                 onClick={() => {
                   navigateTo("home");
-                }}
-              >
+                }}>
                 E-Summit<span>'23</span>
               </button>
-            ) : <div> <img src={logo} className="logo-ecell" alt="" /></div>}
+            ) : (
+              <div>
+                {" "}
+                <img src={logo} className="logo-ecell" alt="" />
+              </div>
+            )}
           </div>
-          <ul className="menu">
-            {navigations.map((value) => {
+          <ul className="menu hidden sm:flex">
+            {navigations.map((value, index) => {
               return (
-                <li>
+                <li key={index}>
                   {" "}
                   <p
                     className="menu-btn"
                     onClick={() => {
                       navigateTo(value);
-                    }}
-                  >
+                    }}>
                     {value.toUpperCase()}
                   </p>{" "}
                 </li>
@@ -47,8 +50,8 @@ const Navbar = () => {
             })}
           </ul>
 
-          <div class="menu-btn">
-            <i class="fas fa-bars"></i>
+          <div className="menu-btn">
+            <i className="fas fa-bars"></i>
           </div>
         </div>
       </nav>
@@ -57,7 +60,6 @@ const Navbar = () => {
 };
 
 const navigateTo = (place) => {
-  console.log("cliceked");
   switch (place) {
     case "about": {
       window.scrollTo({ top: window.innerHeight - 100 });

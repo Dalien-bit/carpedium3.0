@@ -1,36 +1,36 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { events } from "../../content/content";
 
 const Event1 = () => {
   return (
     <div>
-      <section class="min-h-screen bg-white dark:bg-black">
-        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+      <section className="min-h-screen bg-white dark:bg-black">
+        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <img
             className="w-full hidden dark:block"
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
             alt="dashboard image"
           />
-          <div class="mt-4 md:mt-0">
-            <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <div className="mt-4 md:mt-0">
+            <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               {events.ipl.name}
             </h2>
-            <p class="mb-6 font-medium text-gray-500 md:text-lg dark:text-gray-400">
+            <p className="mb-6 font-medium text-gray-500 md:text-lg dark:text-gray-400">
               {events.ipl.description}
             </p>
             <a
               href="#"
-              class="inline-flex items-center text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:ring-white font-bold rounded-lg text-lg px-5 py-2.5 text-center mr-3"
-            >
+              className="inline-flex items-center text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:ring-white font-bold rounded-lg text-lg px-5 py-2.5 text-center mr-3">
               Download Brochure
               <svg
-                class="ml-2 -mr-1 w-5 h-5"
+                className="ml-2 -mr-1 w-5 h-5"
                 xmlns=""
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                // class="w-6 h-6"
+                // className="w-6 h-6"
               >
                 <path
                   stroke-linecap="round"
@@ -41,17 +41,16 @@ const Event1 = () => {
             </a>
             <a
               href="#"
-              class="inline-flex items-center text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:ring-white font-bold rounded-lg text-lg px-5 py-2.5 text-center md:ml-3 mt-6"
-            >
+              className="inline-flex items-center text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:ring-white font-bold rounded-lg text-lg px-5 py-2.5 text-center md:ml-3 mt-6">
               Register Now
               <svg
-                class="ml-2 -mr-1 w-5 h-5"
+                className="ml-2 -mr-1 w-5 h-5"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                // class="w-6 h-6"
+                // className="w-6 h-6"
               >
                 <path
                   stroke-linecap="round"

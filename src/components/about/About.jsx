@@ -9,8 +9,8 @@ const About = () => {
         {" "}
         <p>ss</p>
       </div>
-      <div class="card flex m-auto lg:w-1/2 lg:h-1/2">
-        <div class="card2">
+      <div className="card flex m-auto lg:w-1/2 lg:h-1/2">
+        <div className="card2">
           <h1 className="text-white pl-10 text-5xl pt-5">About Carpedium</h1>
           <p className="text-white px-14 py-12">{about}</p>
         </div>

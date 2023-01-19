@@ -4,7 +4,9 @@ import "./styles.css";
 const Sponsors = () => {
   return (
     <div className="bg-black">
-      <p className="text-white text-3xl text-center py-10">Our proud partners</p>
+      <p className="text-white text-3xl text-center py-10">
+        Our proud partners
+      </p>
       <div class="marquee">
         <div class="marquee-content">
           <div class="marquee-item">
