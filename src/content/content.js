@@ -8,9 +8,9 @@ const events = {
     description:
       "Welcome to the thrill of a live IPL auction! Have you ever wondered what would you do if you get a chance to build your own IPL team? If not, here is a chance to put yourself in the shoes of a bidder and build your dream IPL team in these zero-cool minutes of nerves, strategy, game theory and gut. If you love cricket and can mix wit with passion into bidding strategy, then this event is a must-try shot for you.",
   },
-  misterio: {
+  mistereo: {
     image: "",
-    name: "MISTERIO",
+    name: "MISTEREO",
     description:
       "As the world expects Recession 2023 and milieu demands awareness, E-CELL NIT Agartala shall convenes its first event Mistereo - Case Study Competition by collaborating with the existing North eastern Startups of India and bringing forth the problems a startup usually faces.",
   },
