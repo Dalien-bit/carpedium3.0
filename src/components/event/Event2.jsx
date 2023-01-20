@@ -1,5 +1,7 @@
 import React from "react";
 import { events } from "../../content/content";
+import mistereo_brochure from "../../assets/mistereo-brochure.pdf";
+
 
 const Event2 = () => {
   return (
@@ -22,7 +24,7 @@ const Event2 = () => {
               href="#"
               class="inline-flex items-center text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:ring-white font-bold rounded-lg text-lg px-5 py-2.5 text-center mr-3"
             >
-              Download Brochure
+              <a download="" href={mistereo_brochure}>Download Brochure</a> 
               <svg
                 class="ml-2 -mr-1 w-5 h-5"
                 xmlns=""
