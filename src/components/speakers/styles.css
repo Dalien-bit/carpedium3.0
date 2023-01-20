@@ -1,144 +1,151 @@
-.speakersec{
-    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.speakersec {
+  background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 
-    padding-bottom: 5rem;
-    
-    
+  padding-bottom: 5rem;
+
+
 }
-h1{
 
-    font-size: 2rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 2rem;
-    padding-bottom: 0rem;
+.speakersh1 {
 
-    word-spacing: 2rem;
-    color:#000;
-  }
-.info{
-    color:black;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    background-color:#fff;
-    width: 100%;
-    
-  }
-h3 span{
-    font-size: .85rem;
-  }
-.container{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    
-    padding-right: 5rem;
-    padding-left: 5rem;
-  }
-  
-.card {
-  
+  font-size: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+
+  word-spacing: 2rem;
+  color: #000;
+}
+
+.speakersinfo {
+  color: black;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  width: 100%;
+
+}
+
+h3 span {
+  font-size: .85rem;
+}
+
+.speakerscontainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.speakerscard {
+
   position: relative;
-  
-    margin-top: 5px;
-    margin-bottom: 20px;
-    
-    /* background-image: url("anubhav-dubey.png"); */
-    /* filter: hue-rotate(50deg);
+
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  /* background-image: url("anubhav-dubey.png"); */
+  /* filter: hue-rotate(50deg);
     filter: grayscale(50%); */
-    width:190px;
-    height: 254px;
-    
-    
-    
-  }
-.info{
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-    bottom: 10px;
-  
-    left: .15px;
-    opacity: .8;
-    border-radius: 10px;
-    
-  
-  }
-  
+  width: 190px;
+  height: 254px;
+
+
+
+}
+
+.speakersinfo {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+
+  left: .15px;
+  opacity: .8;
+  border-radius: 10px;
+
+
+}
+
 .speaker-image {
   filter: grayscale(50%);
-    
-    border-radius:25px 25px ;
-    height: 100%;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  }
-  
-.fa-brands{
-    color:black;
-    padding: 6px 6px 6px 6px;
-    background-color: white;
-  width:50%;
+
+  border-radius: 25px 25px;
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.fa-brands {
+  color: black;
+  padding: 6px 6px 6px 6px;
+  background-color: white;
+  width: 50%;
   margin-left: 4px;
   margin-right: 4px;
   border-radius: 25px;
-  justify-content: center ;
+  justify-content: center;
   transition: transform .9s ease-in-out;
-  
-  
-    
-  }
-.fa-brands:hover{
-    color:white;
-    background-color:#0d0c0b	;
-    
-    transform: rotateY(360deg);
-  
-  
-    
-  
-  }
-.details{
-    display: inline-flexbox;
-    text-align: center;
-    justify-content: center;
-  }
-.sicon{
-  
-    background: rgba(59, 10, 10, 0.3);
-    position: absolute;
-    top: 0;
-    justify-content: center;
-    left: 0;
-    border-radius: 25px 25px;
+
+
+
+}
+
+.fa-brands:hover {
+  color: white;
+  background-color: #0d0c0b;
+
+  transform: rotateY(360deg);
+
+
+
+
+}
+
+.details {
+  display: inline-flexbox;
+  text-align: center;
+  justify-content: center;
+}
+
+.sicon {
+
+  background: rgba(59, 10, 10, 0.3);
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  left: 0;
+  border-radius: 25px 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.sicon:hover {
+  opacity: 1;
+
+}
+
+@media screen and (max-width: 800px) {
+  .body {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    opacity: 0;
-    transition: 0.5s;
-    cursor: pointer;
-    
   }
-.sicon:hover{
-    opacity: 1;
-    
+
+  .speakerscontainer {
+    display: grid;
+
   }
-  
-@media screen and (max-width: 800px) {
-    .body{
-      width: 100%;
-      height: 100%;
-    }
-    .container{
-      display: grid;
-      
-    }
-  }
-  
-  
-  
+}

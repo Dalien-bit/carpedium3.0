@@ -19,7 +19,12 @@
     justify-content: space-between;
 }
 
-
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
 
 .navbar .menu li {
     /* list-style: none; */
@@ -105,5 +110,16 @@
         color: #fff;
         font-size: 12px;
         margin-left: 12px;
+    }
+}
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
     }
 }

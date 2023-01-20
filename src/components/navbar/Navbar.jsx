@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import logo from "./ecell-logo.png";
 
@@ -12,6 +12,8 @@ const navigations = [
 ];
 
 const Navbar = () => {
+  const [navbarActive, setNavbarActive] = useState(false);
+
   return (
     <div>
       <nav className="navbar">
@@ -23,7 +25,8 @@ const Navbar = () => {
                 className="main-logo"
                 onClick={() => {
                   navigateTo("home");
-                }}>
+                }}
+              >
                 E-Summit<span>'23</span>
               </button>
             ) : (
@@ -33,7 +36,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <ul className="menu hidden sm:flex">
+          <ul className={`menu sm:flex justify-center items-center`}>
             {navigations.map((value, index) => {
               return (
                 <li key={index}>
@@ -42,17 +45,14 @@ const Navbar = () => {
                     className="menu-btn"
                     onClick={() => {
                       navigateTo(value);
-                    }}>
+                    }}
+                  >
                     {value.toUpperCase()}
                   </p>{" "}
                 </li>
               );
             })}
           </ul>
-
-          <div className="menu-btn">
-            <i className="fas fa-bars"></i>
-          </div>
         </div>
       </nav>
     </div>
@@ -63,34 +63,6 @@ const navigateTo = (place) => {
   console.log("cliceked");
   let scroll_to = document.getElementById(place).offsetTop;
   window.scrollTo({ behavior: "smooth", top: scroll_to });
-  switch (place) {
-    case "about": {
-      window.scrollTo({ top: window.innerHeight - 100 });
-      break;
-    }
-    case "events": {
-      window.scrollTo({ top: window.innerHeight });
-      break;
-    }
-    case "contact": {
-      window.scrollTo(0, document.body.scrollHeight);
-      break;
-    }
-    case "speakers": {
-      window.scrollTo(0, window.innerHeight * 2 + 500);
-      break;
-    }
-    case "sponsors": {
-      break;
-    }
-    case "home": {
-      window.scrollTo({ top: 0 });
-      break;
-    }
-
-    default:
-      break;
-  }
 };
 
 export default Navbar;

@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Sponsors = () => {
   return (
-    <div class="marquee-full-width" id="sponsors">
+    <div class="hidden marquee-full-width" id="sponsors">
       <h1 class="tspon">OUR SPONSORS</h1>
 
       <div class="marquee-box">
