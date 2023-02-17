@@ -1,6 +1,6 @@
 import React from "react";
-import { events } from "../../content/content";
 import ipl_brochure from "../../assets/iplauction-brochure.pdf";
+import { events } from "../../content/content";
 
 const Event1 = () => {
   return (
@@ -42,7 +42,7 @@ const Event1 = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://carpediem-backend-ipl.vercel.app/"
               class="inline-flex items-center text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:ring-white font-bold rounded-lg text-lg px-5 py-2.5 text-center md:ml-3 mt-6"
             >
               Register Now
