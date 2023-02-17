@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles.css";
 import { useNavigate } from "react-router-dom";
+import "./styles.css";
 
 const Left = ({ eventno }) => {
   const navigate = useNavigate();
@@ -9,6 +9,7 @@ const Left = ({ eventno }) => {
   const name = [, "IPL AUCTION", "MISTEREO", "BID DE'LEAST"];
   const date = [, "27th January", "28th January", "29th January"];
   const size = [, "5 members", "2-4 members per team", "2-4 members per team"];
+  const link = [,"https://carpediem-backend-ipl.vercel.app/","https://carpediem-backend-mys.vercel.app/","https://carpediem-backend-bid.vercel.app/"]
   return (
     <div>
       <div class={`course-card ${cl} max-w-xs m-auto w-full`}>
@@ -16,7 +17,7 @@ const Left = ({ eventno }) => {
           class={`${clb} relative w-full mb-9 m-auto  absolute max-w-lg rounded-md text-white bg-black`}
         >
           <a
-            href="#"
+            href={link[eventno]}
             class="course-card-button pt-4 pb-3 pr-2 pl-8 w-full box-border inline-block"
           >
             <div class="event-left-inside mb-3">
